@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Гагарин.Старт - Главная</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header__container">
+            <a href="index.html" class="logo"> 
+                <img src="imag/Star.svg" alt="Логотип">
+                <span>Гагарин.Старт</span>
+            </a>
+            
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="index.html" class="nav__link">Главная</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="biography.html" class="nav__link">Биография</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="flight.html" class="nav__link">Полет в космос</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main class="main">
+        <section class="main-section">
+            <div class="container">
+                <div class="welcome-content">
+                    <div class="welcome-desc">
+                        <h1 class="welcome-title">Юрий Алексеевич Гагарин</h1>
+                        <p class="welcome-text">лётчик-космонавт СССР, Герой Советского Союза, кавалер высших знаков отличия ряда государств, почётный гражданин многих российских и зарубежных городов.</p>
+                    </div>
+                    <img src="imag/ГагаринФото.jpg" alt="Фото Ю.А.Гагарина" class="welcome-img">
+                </div>
+                
+                <div class="quote-block">
+                    <div class="quote-text">
+                        "Поехали!" — историческая фраза Юрия Гагарина перед стартом первого пилотируемого космического корабля
+                    </div>
+                    <div class="quote-author">Юрий Гагарин</div>
+                </div>
+
+                <div class="achievements-section">
+                    <h2 class="section-title">Ключевые достижения</h2>
+                    <div class="achievements-grid">
+                        <div class="achievement-card">
+                            <div class="achievement-title">Первый полет в космос</div>
+                            <p class="achievement-description">12 апреля 1961 года совершил первый в истории человечества полет в космос на корабле "Восток-1"</p>
+                        </div>
+                        <div class="achievement-card">
+                            <div class="achievement-title">Облет Земли</div>
+                            <p class="achievement-description">Совершил один виток вокруг Земли за 108 минут, доказав возможность космических полетов</p>
+                        </div>
+                        <div class="achievement-card">
+                            <div class="achievement-title">Герой Советского Союза</div>
+                            <p class="achievement-description">Удостоен звания Героя Советского Союза и множества других наград за свой подвиг</p>
+                        </div>
+                        <div class="achievement-card">
+                            <div class="achievement-title">Символ эпохи</div>
+                            <p class="achievement-description">Стал символом покорения космоса и вдохновил миллионы людей по всему миру</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="navigation-buttons">
+                    <a href="biography.html" class="btn btn-primary">Узнать биографию →</a>
+                    <a href="flight.html" class="btn btn-secondary">Подробнее о полете →</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <div class="footer-heading">Контакты</div>
+                    <p>Email: example@example.com</p>
+                    <p>Телефон: +7 (XXX) XXX-XX-XX</p>
+                    <div class="footer-links">
+                        <a href="index.html">Главная</a> | 
+                        <a href="biography.html">Биография</a> | 
+                        <a href="flight.html">Полет в космос</a>
+                    </div>
+                </div>
+                
+                <div class="simple-feedback">
+                    <div class="footer-heading">Быстрая связь</div>
+                    <form id="simpleFeedback" action="#" method="POST" class="simple-form">
+                        <div class="simple-row">
+                            <input type="email" name="email" placeholder="Ваш email" required>
+                            <button type="submit" class="small-btn">Отправить</button>
+                        </div>
+                        <textarea name="message" placeholder="Короткое сообщение..." rows="1" required></textarea>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script type="module" src="script.js"></script>
+</body>
+</html>
+
