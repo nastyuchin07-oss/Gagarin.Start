@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Гагарин.Старт - Биография</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
 </head>
 
 <body>
@@ -34,9 +35,11 @@
     <main class="main">
         <section class="tab-content">
             <div class="container">
-                <h1 class="section-title">Биография Юрия Гагарина</h1>
+                <section class="biography-header">
+                    <h1 class="section-title">Биография Юрия Гагарина</h1>
+                </section>
                 
-                <div class="timeline">
+                <section class="timeline">
                     <div class="timeline-item">
                         <div class="timeline-content">
                             <div class="timeline-date">9 марта 1934</div>
@@ -85,27 +88,28 @@
                             <p>Погиб в авиационной катастрофе во время тренировочного полета на самолете МиГ-15УТИ</p>
                         </div>
                     </div>
-                </div>
+                </section>
                 
-                <div class="page-navigation">
+                <section class="page-navigation">
                     <a href="index.html" class="btn btn-secondary">← На главную</a>
                     <a href="flight.html" class="btn btn-primary">Полет в космос →</a>
-                </div>
+                </section>
             </div>
         </section>
     </main>
 
     <footer>
         <div class="container">
-
-            <div class="footer-heading">Контакты</div>
-            <p>Email: example@example.com</p>
-            <p>Телефон: +7 (XXX) XXX-XX-XX</p>
-            <div class="footer-links">
-                <a href="index.html">Главная</a> | 
-                <a href="biography.html">Биография</a> | 
-                <a href="flight.html">Полет в космос</a>
-            </div>
+            <section class="footer-info">
+                <div class="footer-heading">Контакты</div>
+                <p>Email: example@example.com</p>
+                <p>Телефон: +7 (XXX) XXX-XX-XX</p>
+                <div class="footer-links">
+                    <a href="index.html">Главная</a> | 
+                    <a href="biography.html">Биография</a> | 
+                    <a href="flight.html">Полет в космос</a>
+                </div>
+            </section>
         </div>
     </footer>
     <script type="module" src="script.js"></script>

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Гагарин.Старт - Полет в космос</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
 </head>
 
 <body>
@@ -36,7 +37,7 @@
             <div class="container">
                 <h1 class="section-title">Полет в космос</h1>
                 
-                <div class="flight-details">
+                <section class="flight-details">
                     <div class="flight-subtitle">Детали полета "Восток-1"</div>
                     <p>12 апреля 1961 года с космодрома Байконур был осуществлен запуск ракеты-носителя "Восток" с кораблем "Восток-1", на борту которого находился Юрий Гагарин.</p>
                     
@@ -82,25 +83,25 @@
                             </tr>
                         </tbody>
                     </table>
-                </div>
+                </section>
                 
-                <div class="media-container">
-                    <div class="video-wrapper">
+                <section class="media-container">
+                    <section class="video-wrapper">
                         <div class="media-title">Восток-1</div>
                         <video id="gagarinVideo" controls>
                             <source src="imag/Ракета.Анимация.mp4" type="video/mp4">
                         </video>
-                    </div>
+                    </section>
                     
-                    <div class="audio-wrapper">
+                    <section class="audio-wrapper">
                         <div class="media-title">Речь Гагарина</div>
                         <audio id="gagarinAudio" controls>
                             <source src="imag/gagarin-speech.mp3" type="audio/mpeg">
                         </audio>
-                    </div>
-                </div>
+                    </section>
+                </section>
                 
-                <div class="chronology">
+                <section class="chronology">
                     <div class="chronology-title">Хронология полета</div>
                     <ol>
                         <li><strong>06:07</strong> - Запуск ракеты-носителя "Восток" с космодрома Байконур</li>
@@ -114,12 +115,12 @@
                         <li><strong>08:05</strong> - Катапультирование Гагарина из спускаемого аппарата</li>
                         <li><strong>08:10</strong> - Приземление на парашюте в районе деревни Смеловка</li>
                     </ol>
-                </div>
+                </section>
                 
-                <div class="page-navigation">
+                <section class="page-navigation">
                     <a href="biography.html" class="btn btn-secondary">← Биография</a>
                     <a href="index.html" class="btn btn-primary">На главную →</a>
-                </div>
+                </section>
             </div>
         </section>
     </main>
@@ -138,7 +139,7 @@
                     </div>
                 </div>
                 
-                <div class="simple-feedback">
+                <section class="simple-feedback">
                     <div class="footer-heading">Быстрая связь</div>
                     <form id="simpleFeedback" action="#" method="POST" class="simple-form">
                         <div class="simple-row">
@@ -147,7 +148,7 @@
                         </div>
                         <textarea name="message" placeholder="Короткое сообщение..." rows="1" required></textarea>
                     </form>
-                </div>
+                </section>
             </div>
         </div>
     </footer>
